@@ -1,0 +1,7 @@
+(define (commax a b c)
+    (cond ((and (> a c) (> b c)) (+ a b))
+        ((and (> b a) (> c a)) (+ b c))
+        ((and (> a b) (> c b)) (+ a c)))
+)
+(display (commax 1 2 3))
+(exit)
